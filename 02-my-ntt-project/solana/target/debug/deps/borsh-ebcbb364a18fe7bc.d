@@ -1,0 +1,11 @@
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/libborsh-ebcbb364a18fe7bc.rmeta: /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/lib.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/hint.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema_helpers.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/helpers.rs
+
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/borsh-ebcbb364a18fe7bc.d: /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/lib.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/hint.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema_helpers.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/helpers.rs
+
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/lib.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/mod.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/de/hint.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/schema_helpers.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/mod.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/borsh-0.10.3/src/ser/helpers.rs:

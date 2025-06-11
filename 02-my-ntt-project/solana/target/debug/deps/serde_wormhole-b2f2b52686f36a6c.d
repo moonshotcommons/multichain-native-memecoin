@@ -1,0 +1,9 @@
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/libserde_wormhole-b2f2b52686f36a6c.rmeta: /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/lib.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/de.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/error.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/raw.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/ser.rs
+
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/serde_wormhole-b2f2b52686f36a6c.d: /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/lib.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/de.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/error.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/raw.rs /Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/ser.rs
+
+/Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/lib.rs:
+/Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/de.rs:
+/Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/error.rs:
+/Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/raw.rs:
+/Users/gavin/.cargo/git/checkouts/wormhole-e8e19b801d1b718f/eee4641/sdk/rust/serde_wormhole/src/ser.rs:

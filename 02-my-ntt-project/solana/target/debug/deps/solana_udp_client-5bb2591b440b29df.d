@@ -1,0 +1,8 @@
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/libsolana_udp_client-5bb2591b440b29df.rmeta: /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/lib.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/nonblocking/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/nonblocking/udp_client.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/udp_client.rs
+
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/solana_udp_client-5bb2591b440b29df.d: /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/lib.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/nonblocking/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/nonblocking/udp_client.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/udp_client.rs
+
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/lib.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/nonblocking/mod.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/nonblocking/udp_client.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-udp-client-1.18.10/src/udp_client.rs:

@@ -1,0 +1,72 @@
+{
+  "network": "Testnet",
+  "chains": {
+    "Solana": {
+      "version": "2.0.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "wdSfapJ585jjCA6BV3w4Z8Rwq22G8RkHGhKRPPYCynu",
+      "manager": "nTt7SterjWCQwm1twXvDCpBjkkB7nJ2Avw3SPd9pSaC",
+      "token": "GHWto6TUmELaFNz8afedp83tyyJG8YipyLuxR1g2vpCs",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "692xUh2s1QhSzshfg1Kpfdm7pic4EZGCJQpXoWCHFPEn"
+        }
+      },
+      "limits": {
+        "outbound": "1844674.100000000",
+        "inbound": {
+          "OptimismSepolia": "1844674.000000000",
+          "ArbitrumSepolia": "1844674.000000000"
+        }
+      }
+    },
+    "OptimismSepolia": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x5CB8896Db7Bf13DE6A6EA362866288e577e4F6C5",
+      "manager": "0x23210d6B0471466CCAe84138689FBD11941B1a79",
+      "token": "0xf99785b9e44E181C5AaD8508DB076773ED29196E",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xD62549753a899baD184dd6Cc22dAD7370a54e5C8",
+          "pauser": "0x5CB8896Db7Bf13DE6A6EA362866288e577e4F6C5"
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {
+          "Solana": "18446744.000000000000000000",
+          "ArbitrumSepolia": "1844674.000000000000000000"
+        }
+      },
+      "pauser": "0x5CB8896Db7Bf13DE6A6EA362866288e577e4F6C5"
+    },
+    "ArbitrumSepolia": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x5CB8896Db7Bf13DE6A6EA362866288e577e4F6C5",
+      "manager": "0x85Feb33579fc41b424e6c16a24fff1f9de33Fe8A",
+      "token": "0x4c32c1F1A215d98111416cFE7fFeDbe80B4E84b9",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x621c561F8889A8ba02530d3024cE5D2F912c274B",
+          "pauser": "0x5CB8896Db7Bf13DE6A6EA362866288e577e4F6C5"
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {
+          "Solana": "1844674.000000000000000000",
+          "OptimismSepolia": "1844674.000000000000000000"
+        }
+      },
+      "pauser": "0x5CB8896Db7Bf13DE6A6EA362866288e577e4F6C5"
+    }
+  }
+}

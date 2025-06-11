@@ -1,0 +1,8 @@
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/libsolana_quic_client-ba0cdcf356872bcb.rmeta: /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/lib.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/nonblocking/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/nonblocking/quic_client.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/quic_client.rs
+
+/Users/gavin/vsc_workspace/wormhole-course/my-ntt-deployment10/solana/target/debug/deps/solana_quic_client-ba0cdcf356872bcb.d: /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/lib.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/nonblocking/mod.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/nonblocking/quic_client.rs /Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/quic_client.rs
+
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/lib.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/nonblocking/mod.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/nonblocking/quic_client.rs:
+/Users/gavin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-quic-client-1.18.10/src/quic_client.rs:
