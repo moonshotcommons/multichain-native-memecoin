@@ -3,8 +3,6 @@
 This is a multichain native Memecoin project based on the Wormhole NTT framework, implementing cross-chain token issuance and transfer functionality. The project allows developers to issue a native token HackQuest(HQ) using the Burn-and-Mint model, supporting seamless transfers between Solana, OptimismSepolia, and ArbitrumSepolia blockchains.
 ![Cross-chain Flow](./1.webp)
 
-To learn more about this project, visit: https://arena.wormhole.com/zh-cn/courses/1bee7446-5ed5-8140-9ec4-e800f40a41bc
-
 ## Project Features
 
 - **Native Token Support**: Each chain's token is native, not wrapped, providing better user experience and lower transaction costs
@@ -233,3 +231,4 @@ npm install
 npm run dev
 ```
 
+To learn more about this project, visit: https://arena.wormhole.com/zh-cn/courses/1bee7446-5ed5-8140-9ec4-e800f40a41bc
