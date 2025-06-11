@@ -1,130 +1,127 @@
 # Multichain Native Memecoin
 
-这是一个基于 Wormhole NTT 框架的多链原生 Memecoin 项目，实现了跨链代币发行和跨链功能。本项目允许开发者发行一个基于 Burn-and-Mint 模式的原生代币 HackQuest(HQ)，并支持在 Solana、OptimismSepolia、ArbitrumSepolia 这三个区块链之间轻松转移。
-![跨链流程](./1.webp)
+This is a multichain native Memecoin project based on the Wormhole NTT framework, implementing cross-chain token issuance and transfer functionality. The project allows developers to issue a native token HackQuest(HQ) using the Burn-and-Mint model, supporting seamless transfers between Solana, OptimismSepolia, and ArbitrumSepolia blockchains.
+![Cross-chain Flow](./1.webp)
 
+To learn more about this project, visit: https://arena.wormhole.com/zh-cn/courses/1bee7446-5ed5-8140-9ec4-e800f40a41bc
 
-想要深入学习该项目,请访问: https://arena.wormhole.com/zh-cn/courses/1bee7446-5ed5-8140-9ec4-e800f40a41bc
+## Project Features
 
-## 项目特点
+- **Native Token Support**: Each chain's token is native, not wrapped, providing better user experience and lower transaction costs
+- **Burn-and-Mint Model**: Innovative burn-and-mint mechanism ensuring secure and reliable cross-chain transfers
+- **Multi-chain Support**:
+  - Solana: High-performance blockchain with fast transactions and low fees
+  - OptimismSepolia: Layer2 solution offering Ethereum compatibility and low costs
+  - ArbitrumSepolia: Popular Layer2 network providing additional scalability options
+- **Seamless Cross-chain**: Secure and reliable cross-chain messaging through Wormhole Protocol
+- **User-friendly**: Intuitive web interface with wallet connection and cross-chain operations
 
-- **原生代币支持**：每个链上的代币都是原生的，而不是包装代币，提供更好的用户体验和更低的交易成本
-- **Burn-and-Mint 模式**：采用创新的销毁-铸造模式，确保跨链转移的安全性和可靠性
-- **多链支持**：
-  - Solana：高性能公链，支持快速交易和低费用
-  - OptimismSepolia：Layer2 解决方案，提供以太坊兼容性和低成本
-  - ArbitrumSepolia：另一个流行的 Layer2 网络，提供额外的扩展性选择
-- **无缝跨链**：通过 Wormhole Protocol 实现安全可靠的跨链消息传递
-- **用户友好**：提供直观的 Web 界面，支持钱包连接和跨链操作
+## Project Structure
 
-## 项目结构
-
-
-项目分为三个主要模块，每个模块负责不同的功能：
+The project consists of three main modules, each responsible for different functionalities:
 
 ### 01-example-ntt-token
-智能合约模块，实现了多链代币部署的核心功能：
-- **PeerToken 合约**：实现了 Burn-and-Mint 模式的代币合约
-  - 代币铸造功能
-  - 代币销毁功能
-  - 代币转账功能
-  - 铸造权限管理
-- **部署工具**：使用 Foundry 框架进行合约部署和交互
-  - 支持多链部署
-  - 提供代币铸造和查询功能
-  - 环境变量配置
+Smart contract module implementing core functionality for multichain token deployment:
+- **PeerToken Contract**: Implements Burn-and-Mint model token contract
+  - Token minting functionality
+  - Token burning functionality
+  - Token transfer functionality
+  - Minting permission management
+- **Deployment Tools**: Using Foundry framework for contract deployment and interaction
+  - Multi-chain deployment support
+  - Token minting and query functionality
+  - Environment variable configuration
 
 ### 02-my-ntt-project
-NTT (Native Token Transfer) 框架配置模块：
-- **链配置**：配置支持的区块链网络
-  - OptimismSepolia 配置
-  - Solana 配置
-  - ArbitrumSepolia 配置
-- **跨链设置**：
-  - 代币合约地址配置
-  - 跨链模式设置（Burn-and-Mint）
-  - 权限管理配置
-- **部署管理**：
-  - 配置同步（ntt pull/push）
-  - 跨链参数验证
-  - 部署状态管理
+NTT (Native Token Transfer) framework configuration module:
+- **Chain Configuration**: Configuring supported blockchain networks
+  - OptimismSepolia configuration
+  - Solana configuration
+  - ArbitrumSepolia configuration
+- **Cross-chain Settings**:
+  - Token contract address configuration
+  - Cross-chain mode settings (Burn-and-Mint)
+  - Permission management configuration
+- **Deployment Management**:
+  - Configuration synchronization (ntt pull/push)
+  - Cross-chain parameter validation
+  - Deployment status management
 
 ### 03-ntt-project-front
-基于 Connect Widget 的前端界面：
-![项目架构图](./image.png)
+Frontend interface based on Connect Widget:
+![Project Architecture](./image.png)
 
-- **用户界面**：
-  - 钱包连接集成
-  - 代币余额显示
-  - 跨链转账操作
-  - 交易状态追踪
-- **技术实现**：
-  - 基于 Vite + React + TypeScript
-  - Wormhole Connect SDK 集成
-  - 响应式设计
-  - 实时状态更新
+- **User Interface**:
+  - Wallet connection integration
+  - Token balance display
+  - Cross-chain transfer operations
+  - Transaction status tracking
+- **Technical Implementation**:
+  - Based on Vite + React + TypeScript
+  - Wormhole Connect SDK integration
+  - Responsive design
+  - Real-time status updates
 
+## Detailed Deployment Process
 
-## 详细部署流程
-
-### Step 1: 部署 ERC20 合约
-首先，我们需要在 Optimism Sepolia 测试网上部署我们的代币合约。这个合约将作为我们在 Optimism 网络上的原生代币。
+### Step 1: Deploy ERC20 Contract
+First, we need to deploy our token contract on the Optimism Sepolia testnet. This contract will serve as our native token on the Optimism network.
 
 ```bash
-# 克隆示例代币项目
+# Clone example token project
 git clone https://github.com/wormhole-foundation/example-ntt-token.git
 cd example-ntt-token
 
-# 设置环境变量
-export HACKQUEST=0xAe3759Ccc3E0877fFBb4d533a88Bf9AD0F2Df3F8  # 您的钱包地址
-export OP_PRIVATE_KEY=your_private_key  # 您的私钥
+# Set environment variables
+export HACKQUEST=0xAe3759Ccc3E0877fFBb4d533a88Bf9AD0F2Df3F8  # Your wallet address
+export OP_PRIVATE_KEY=your_private_key  # Your private key
 
-# 部署代币合约
+# Deploy token contract
 forge create --rpc-url "https://sepolia.optimism.io" \
   --private-key $OP_PRIVATE_KEY \
   --broadcast src/PeerToken.sol:PeerToken \
   --constructor-args "HackQuest" "HQ" $HACKQUEST $HACKQUEST
 
-# 记录代币地址
+# Record token address
 export OP_TOKEN_ADDRESS=deployed_token_address
 ```
 
-### Step 2: 铸造代币
-部署完成后，我们需要铸造初始代币供应量。这里我们铸造 1000 枚代币。
+### Step 2: Mint Tokens
+After deployment, we need to mint the initial token supply. Here we mint 1000 tokens.
 
 ```bash
-# 铸造 1000 枚代币
+# Mint 1000 tokens
 cast send --private-key $OP_PRIVATE_KEY \
   --rpc-url "https://sepolia.optimism.io" \
   $OP_TOKEN_ADDRESS \
   "mint(address,uint256)" \
   $HACKQUEST \
-  1000000000000000000000  # 1000 代币（18位小数）
+  1000000000000000000000  # 1000 tokens (18 decimals)
 
-# 查询余额确认铸造成功
+# Check balance to confirm minting
 cast call $OP_TOKEN_ADDRESS "balanceOf(address)(uint256)" $HACKQUEST \
   --rpc-url "https://sepolia.optimism.io"
 ```
 
-### Step 3: 添加 Optimism Sepolia 链
-现在我们需要配置 NTT 框架，首先添加 Optimism Sepolia 链。
+### Step 3: Add Optimism Sepolia Chain
+Now we need to configure the NTT framework, starting with adding the Optimism Sepolia chain.
 
 ```bash
-# 初始化 NTT 项目
+# Initialize NTT project
 ntt new my-ntt-project
 ntt init Testnet
 
-# 设置环境变量
+# Set environment variables
 export ETH_PRIVATE_KEY=your_private_key
 export OPTIMISMSEPOLIA_SCAN_API_KEY=your_api_key
 export OP_TOKEN_ADDRESS=your_token_address
 
-# 添加链配置
+# Add chain configuration
 ntt add-chain OptimismSepolia --latest --mode burning --token $OP_TOKEN_ADDRESS
 ```
 
-### Step 4: 修改代币铸造权限
-为了确保跨链功能正常工作，我们需要将代币的铸造权限转移给 NTT Manager。
+### Step 4: Modify Token Minting Permission
+To ensure cross-chain functionality works properly, we need to transfer token minting permission to the NTT Manager.
 
 ```bash
 export NTT_MANAGER_ADDRESS=your_ntt_manager_address
@@ -133,75 +130,75 @@ cast send $OP_TOKEN_ADDRESS "setMinter(address)" $NTT_MANAGER_ADDRESS \
   --rpc-url "https://sepolia.optimism.io"
 ```
 
-### Step 5: 创建 Solana 账户
-接下来，我们需要在 Solana 网络上创建必要的账户。
+### Step 5: Create Solana Account
+Next, we need to create necessary accounts on the Solana network.
 
 ```bash
-# 生成指定前缀的账户（用于支付交易费用）
+# Generate account with specific prefix (for transaction fees)
 solana-keygen grind --starts-with w:1
 
-# 设置为默认账户
+# Set as default account
 solana config set --keypair your_keypair.json
 
-# 导出私钥（用于 NTT 配置）
+# Export private key (for NTT configuration)
 ntt solana key-base58 <keypair>
 
-# 获取测试币
+# Get test tokens
 solana airdrop 2
 solana balance
 ```
 
-### Step 6: 部署 SPL Token
-在 Solana 上创建我们的代币。
+### Step 6: Deploy SPL Token
+Create our token on Solana.
 
 ```bash
-# 创建代币
+# Create token
 spl-token create-token
 
-# 创建代币账户
+# Create token account
 spl-token create-account your_token_address
 ```
 
-### Step 7: 设置代币元数据
-为 Solana 代币设置元数据信息，包括名称、符号和图片。
+### Step 7: Set Token Metadata
+Set metadata information for the Solana token, including name, symbol, and image.
 
 ```bash
-# 克隆元数据项目
+# Clone metadata project
 git clone https://github.com/wormhole-foundation/demo-metaplex-metadata
 cd demo-metaplex-metadata
 
-# 安装依赖
+# Install dependencies
 npm install
 
-# 设置环境变量
+# Set environment variables
 export SOL_PRIVATE_KEY="your_private_key"
 
-# 修改元数据信息
-# 在配置文件中更新：
+# Update metadata information
+# In the configuration file:
 # - name: "HackQuest"
 # - symbol: "HQ"
 # - uri: "your_metadata_uri"
 
-# 创建元数据
+# Create metadata
 npm run create-metadata
 ```
 
-### Step 8: 设置 Mint 权限
-配置 Solana 代币的铸造权限，确保 NTT 框架可以控制代币铸造。
+### Step 8: Set Mint Permission
+Configure Solana token minting permission to ensure NTT framework can control token minting.
 
 ```bash
-# 生成 NTT 程序账户（用于控制代币铸造）
+# Generate NTT program account (for controlling token minting)
 solana-keygen grind --starts-with ntt:1
 
-# 生成对应的 PDA 账户（程序派生地址）
+# Generate corresponding PDA account (Program Derived Address)
 ntt solana token-authority your_ntt_program_keypair
 
-# 授权铸造权限给 NTT 程序
+# Authorize minting permission to NTT program
 spl-token authorize your_token_address mint your_derived_pda
 ```
 
-### Step 9: 添加 Solana 链
-将 Solana 链添加到 NTT 配置中。
+### Step 9: Add Solana Chain
+Add Solana chain to NTT configuration.
 
 ```bash
 ntt add-chain Solana --latest --mode burning \
@@ -210,29 +207,29 @@ ntt add-chain Solana --latest --mode burning \
   --program-key your_ntt_program_keypair.json
 ```
 
-### Step 10: 配置 NTT
-同步和更新 NTT 配置。
+### Step 10: Configure NTT
+Synchronize and update NTT configuration.
 
 ```bash
-# 拉取最新配置
+# Pull latest configuration
 ntt pull
 
-# 推送配置更新
+# Push configuration updates
 ntt push --payer your_keypair.json
 ```
 
-### Step 11: 部署前端界面
-最后，部署用户界面，让用户可以方便地进行跨链操作。
+### Step 11: Deploy Frontend Interface
+Finally, deploy the user interface for convenient cross-chain operations.
 
 ```bash
-# 克隆前端项目
+# Clone frontend project
 git clone https://github.com/wormhole-foundation/demo-ntt-connect.git
 cd demo-ntt-connect
 
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动开发服务器
+# Start development server
 npm run dev
 ```
 
